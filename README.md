@@ -1,5 +1,6 @@
 # java_hackerrank_solutions
-[1. Java String Introduction](https://www.hackerrank.com/challenges/java-strings-introduction/problem)
+[1. Java String Introduction](https://www.hackerrank.com/challenges/java-strings-introduction/problem)<br>
+[Java compareTo() docs](https://www.javatpoint.com/java-string-compareto)
 
 ```java
 import java.io.*;
