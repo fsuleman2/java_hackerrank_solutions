@@ -17,18 +17,11 @@ public class Solution {
         System.out.println(A.length()+B.length());
         System.out.println(A.compareTo(B)>0?"Yes":"No");
         System.out.print(A.substring(0,1).toUpperCase()+A.substring(1)+" "+B.substring(0,1).toUpperCase()+B.substring(1));
-<<<<<<< HEAD
-        
-=======
->>>>>>> e6c04b8 (3rd problem added)
     }
 }
 ```
 [2. Java Output Formatting](https://www.hackerrank.com/challenges/java-output-formatting/problem)
-<<<<<<< HEAD
-=======
 
->>>>>>> e6c04b8 (3rd problem added)
 ```java
 import java.util.Scanner;
 
@@ -52,9 +45,6 @@ public class Solution {
 (fill in the blanks from the left) "%03d" means that within 3 0s,
 the integer"x" will be filled in the right.(fill in the zeros from the right).
 ```
-<<<<<<< HEAD
-=======
-
 [3. Java Loops II](https://www.hackerrank.com/challenges/java-loops/problem)
 
 ```java
@@ -81,4 +71,3 @@ class Solution{
     }
 }
 ```
->>>>>>> e6c04b8 (3rd problem added)
