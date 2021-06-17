@@ -140,3 +140,49 @@ public class Solution {
     }
 }
 ```
+[6. Java String Reverse](https://www.hackerrank.com/challenges/java-string-reverse/problem)
+
+```java
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+//I have use StringBuilder class to reverse a String in java
+public static String reverseMethod(String str)
+{
+    StringBuilder sb = new StringBuilder(str);
+    sb.reverse();
+        return sb.toString();
+}
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        /* Enter your code here. Print output to STDOUT. */
+       String str1 = reverseMethod(A);
+       System.out.println(str1.equals(A)?"Yes":"No");
+        
+    }
+}
+```
+```java
+import java.io.*;
+import java.util.*;
+//I have solved above problem in another way
+public class Solution {
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        //start writing your code
+        String rev="";
+        int len = A.length();
+        for(int i=len-1;i>=0;i--)
+        {
+            rev+=A.charAt(i);
+        }
+        System.out.println(A.equals(rev)?"Yes":"No");
+        
+    }
+}
+```
